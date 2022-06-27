@@ -1,4 +1,7 @@
+h1 {
+  color: navy;
+}
 body {
-  background-color: gray;
+  background-color: rgb(249, 245, 245);
   font-size: 130%;
 }

@@ -10,10 +10,21 @@ section li {
   color: green;
 }
 
+/* all li elements that are inside a article element. */
+/* the difference between '>' and the '_'(space), the fronter means direct parent and child relation and '(space)' means \in  */
+article ul {
+  color: tomato;
+}
+
+body h1 {
+  color: rgba(30, 177, 22, 0.845);
+}
+
 </style>
 </head>
 <body>
 <h1>Decendant Selector</h1>
+
 <section>
   Table of contents:
   <ul>
@@ -22,6 +33,7 @@ section li {
     <li>Article 3</li>
   </ul>
 </section>
+
 <article>
   Shopping List:
   <ul>
@@ -30,5 +42,6 @@ section li {
     <li>Pie</li>
   </ul>
 </article>
+
 </body>
 </html>
